@@ -1,0 +1,8 @@
+<ul>
+  {{#each categories}}
+    <li>
+      {{increment @index}}. {{titleCase this.name}}
+        <p>id: {{this.id}}</p>
+    </li>
+  {{/each}}
+</ul>
